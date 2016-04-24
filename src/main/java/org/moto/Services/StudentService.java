@@ -20,5 +20,6 @@ public class StudentService {
         ob.setName(name);
         ob.setEmail(email);
         dao.save(ob);
+
     }
 }
